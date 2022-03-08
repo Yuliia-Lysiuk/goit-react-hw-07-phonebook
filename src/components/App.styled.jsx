@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Box = styled.div`
 min-height: 100vh;
-background-color: #2e2a2a;
+background-color: ${props => props.themeColor ? "#e2d7d7" : "#2e2a2a"};
 padding: 20px;
 `
 
